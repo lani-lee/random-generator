@@ -1,0 +1,15 @@
+<div class="joke-generator-container">
+  <p>joke-generator</p>
+
+  {{ currentJoke.joke }}
+
+  <button class="refresh-button" (click)="generateJoke()">
+    Get a new awesome dad joke!
+  </button>
+
+  <button (click)="goToPage('home')"
+          [hidden]="!exitButtonVisible">
+    Get me out
+  </button>
+
+</div>

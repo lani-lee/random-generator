@@ -1,0 +1,29 @@
+h1 {
+  color: floralwhite;
+}
+
+.header-container {
+  background-color: #E03D38;
+  display: flex;
+  justify-content: center;
+}
+
+.blue {
+  background-color: #43C6B1;
+}
+
+.green {
+  background-color: #94C26B;
+}
+
+.cream {
+  background-color: #F4EA9F;
+}
+
+.orange {
+  background-color: #F2B736;
+}
+
+.red {
+  background-color: #E03D38;
+}
